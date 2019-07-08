@@ -1,0 +1,17 @@
+<template>
+    <lightning-layout class="x-large">
+        <lightning-layout-item padding="around-small">
+            <lightning-card title="Continuation">
+                <p class="slds-p-horizontal_small">
+                    <lightning-button label="Call Continuation" onclick={callContinuation}></lightning-button>&nbsp;
+                    Imperative result: {formattedImperativeResult}
+                </p>
+            </lightning-card>
+        </lightning-layout-item>
+        <lightning-layout-item padding="around-small">
+            <lightning-card title="Wire">
+                <p class="slds-p-horizontal_small">Wired result: {formattedWireResult}</p>
+            </lightning-card>
+        </lightning-layout-item>
+    </lightning-layout>
+</template>
